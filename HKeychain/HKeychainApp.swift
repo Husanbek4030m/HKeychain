@@ -13,7 +13,7 @@ struct HKeychainApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartPage()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

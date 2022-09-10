@@ -8,21 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		8DBA69C628CCAB5A007E0CC1 /* HKeychainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA69C528CCAB5A007E0CC1 /* HKeychainApp.swift */; };
-		8DBA69C828CCAB5A007E0CC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA69C728CCAB5A007E0CC1 /* ContentView.swift */; };
 		8DBA69CA28CCAB5C007E0CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DBA69C928CCAB5C007E0CC1 /* Assets.xcassets */; };
 		8DBA69CD28CCAB5C007E0CC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DBA69CC28CCAB5C007E0CC1 /* Preview Assets.xcassets */; };
 		8DBA69CF28CCAB5C007E0CC1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA69CE28CCAB5C007E0CC1 /* Persistence.swift */; };
 		8DBA69D228CCAB5C007E0CC1 /* HKeychain.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA69D028CCAB5C007E0CC1 /* HKeychain.xcdatamodeld */; };
+		8DBA69DB28CCAB9F007E0CC1 /* Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA69DA28CCAB9F007E0CC1 /* Task1.swift */; };
+		8DBA69DD28CCABB4007E0CC1 /* Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA69DC28CCABB4007E0CC1 /* Task2.swift */; };
+		8DBA69DF28CCABD9007E0CC1 /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA69DE28CCABD9007E0CC1 /* StartPage.swift */; };
+		8DBA69E228CCAC3B007E0CC1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA69E128CCAC3B007E0CC1 /* User.swift */; };
+		8DBA69E428CCAD9E007E0CC1 /* Custom1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA69E328CCAD9E007E0CC1 /* Custom1.swift */; };
+		8DBA69E628CCB1B6007E0CC1 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA69E528CCB1B6007E0CC1 /* Account.swift */; };
+		8DBA69E828CCB335007E0CC1 /* Custom2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA69E728CCB335007E0CC1 /* Custom2.swift */; };
+		8DBA69EB28CCB865007E0CC1 /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 8DBA69EA28CCB865007E0CC1 /* SwiftKeychainWrapper */; };
+		8DBA69ED28CCB871007E0CC1 /* Task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA69EC28CCB871007E0CC1 /* Task3.swift */; };
+		8DBA69EF28CCB8A5007E0CC1 /* Custom3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA69EE28CCB8A5007E0CC1 /* Custom3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8DBA69C228CCAB5A007E0CC1 /* HKeychain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKeychain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DBA69C528CCAB5A007E0CC1 /* HKeychainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKeychainApp.swift; sourceTree = "<group>"; };
-		8DBA69C728CCAB5A007E0CC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DBA69C928CCAB5C007E0CC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DBA69CC28CCAB5C007E0CC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8DBA69CE28CCAB5C007E0CC1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		8DBA69D128CCAB5C007E0CC1 /* HKeychain.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HKeychain.xcdatamodel; sourceTree = "<group>"; };
+		8DBA69DA28CCAB9F007E0CC1 /* Task1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1.swift; sourceTree = "<group>"; };
+		8DBA69DC28CCABB4007E0CC1 /* Task2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2.swift; sourceTree = "<group>"; };
+		8DBA69DE28CCABD9007E0CC1 /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; };
+		8DBA69E128CCAC3B007E0CC1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8DBA69E328CCAD9E007E0CC1 /* Custom1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom1.swift; sourceTree = "<group>"; };
+		8DBA69E528CCB1B6007E0CC1 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		8DBA69E728CCB335007E0CC1 /* Custom2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom2.swift; sourceTree = "<group>"; };
+		8DBA69EC28CCB871007E0CC1 /* Task3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task3.swift; sourceTree = "<group>"; };
+		8DBA69EE28CCB8A5007E0CC1 /* Custom3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DBA69EB28CCB865007E0CC1 /* SwiftKeychainWrapper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +73,11 @@
 		8DBA69C428CCAB5A007E0CC1 /* HKeychain */ = {
 			isa = PBXGroup;
 			children = (
+				8DBA69E028CCAC28007E0CC1 /* models */,
+				8DBA69D928CCAB7F007E0CC1 /* screens */,
+				8DBA69D828CCAB7A007E0CC1 /* utils */,
 				8DBA69C528CCAB5A007E0CC1 /* HKeychainApp.swift */,
-				8DBA69C728CCAB5A007E0CC1 /* ContentView.swift */,
+				8DBA69DE28CCABD9007E0CC1 /* StartPage.swift */,
 				8DBA69C928CCAB5C007E0CC1 /* Assets.xcassets */,
 				8DBA69CE28CCAB5C007E0CC1 /* Persistence.swift */,
 				8DBA69D028CCAB5C007E0CC1 /* HKeychain.xcdatamodeld */,
@@ -71,6 +92,35 @@
 				8DBA69CC28CCAB5C007E0CC1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DBA69D828CCAB7A007E0CC1 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				8DBA69E328CCAD9E007E0CC1 /* Custom1.swift */,
+				8DBA69E728CCB335007E0CC1 /* Custom2.swift */,
+				8DBA69EE28CCB8A5007E0CC1 /* Custom3.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		8DBA69D928CCAB7F007E0CC1 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				8DBA69DA28CCAB9F007E0CC1 /* Task1.swift */,
+				8DBA69DC28CCABB4007E0CC1 /* Task2.swift */,
+				8DBA69EC28CCB871007E0CC1 /* Task3.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		8DBA69E028CCAC28007E0CC1 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				8DBA69E128CCAC3B007E0CC1 /* User.swift */,
+				8DBA69E528CCB1B6007E0CC1 /* Account.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +139,9 @@
 			dependencies = (
 			);
 			name = HKeychain;
+			packageProductDependencies = (
+				8DBA69EA28CCB865007E0CC1 /* SwiftKeychainWrapper */,
+			);
 			productName = HKeychain;
 			productReference = 8DBA69C228CCAB5A007E0CC1 /* HKeychain.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +170,9 @@
 				Base,
 			);
 			mainGroup = 8DBA69B928CCAB5A007E0CC1;
+			packageReferences = (
+				8DBA69E928CCB865007E0CC1 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
+			);
 			productRefGroup = 8DBA69C328CCAB5A007E0CC1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -144,9 +200,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DBA69CF28CCAB5C007E0CC1 /* Persistence.swift in Sources */,
-				8DBA69C828CCAB5A007E0CC1 /* ContentView.swift in Sources */,
+				8DBA69DF28CCABD9007E0CC1 /* StartPage.swift in Sources */,
+				8DBA69EF28CCB8A5007E0CC1 /* Custom3.swift in Sources */,
 				8DBA69D228CCAB5C007E0CC1 /* HKeychain.xcdatamodeld in Sources */,
+				8DBA69E828CCB335007E0CC1 /* Custom2.swift in Sources */,
+				8DBA69DD28CCABB4007E0CC1 /* Task2.swift in Sources */,
+				8DBA69E428CCAD9E007E0CC1 /* Custom1.swift in Sources */,
+				8DBA69E628CCB1B6007E0CC1 /* Account.swift in Sources */,
+				8DBA69ED28CCB871007E0CC1 /* Task3.swift in Sources */,
 				8DBA69C628CCAB5A007E0CC1 /* HKeychainApp.swift in Sources */,
+				8DBA69DB28CCAB9F007E0CC1 /* Task1.swift in Sources */,
+				8DBA69E228CCAC3B007E0CC1 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +411,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8DBA69E928CCB865007E0CC1 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrendel/SwiftKeychainWrapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8DBA69EA28CCB865007E0CC1 /* SwiftKeychainWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DBA69E928CCB865007E0CC1 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */;
+			productName = SwiftKeychainWrapper;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		8DBA69D028CCAB5C007E0CC1 /* HKeychain.xcdatamodeld */ = {
